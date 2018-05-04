@@ -1,0 +1,24 @@
+{
+  "name": "frameful",
+  "version": "0.0.0",
+  "description": "Easily customizable multiplatform title bars for Electron.",
+  "main": "dist/frameful-bundle.js",
+  "author": "Joonas Yliaho",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c -w --experimentalDynamicImport"
+  },
+  "devDependencies": {
+    "rollup": "^0.58.2",
+    "rollup-plugin-async": "^1.2.0",
+    "rollup-plugin-commonjs": "^9.1.3",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-sass": "^0.6.1",
+    "rollup-plugin-string": "^2.0.2",
+    "rollup-plugin-svg": "^1.0.1",
+    "rollup-plugin-typescript": "^0.8.1",
+    "rollup-plugin-typescript2": "^0.13.0",
+    "typescript": "^2.8.3"
+  },
+  "dependencies": {}
+}

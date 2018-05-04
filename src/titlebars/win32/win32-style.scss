@@ -1,0 +1,17 @@
+.frameful-titlebar {
+  background-color: whitesmoke;
+  background-image: linear-gradient(red, #d2d0d2);
+  padding: 1em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  .control-button-container {
+    &.close {
+      svg ellipse {
+        fill: #ff545c;
+        stroke: #f03242;
+      }
+    }
+  }
+}
